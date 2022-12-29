@@ -55,7 +55,6 @@
     <jaxb-api.version>2.3.1</jaxb-api.version>
     <jaxb-impl.version>2.3.3</jaxb-impl.version>
     <kcl.version>2.9</kcl.version>
-    <lombok.version>1.18.12</lombok.version>
     <plex.version>0.2</plex.version>
     <poi.version>3.17</poi.version>
     
@@ -69,13 +68,6 @@
   <dependencyManagement>
     <dependencies>
     
-      <dependency>
-        <groupId>org.projectlombok</groupId>
-        <artifactId>lombok</artifactId>
-        <version>${lombok.version}</version>
-        <scope>provided</scope>
-      </dependency>
-      
       <dependency>
         <groupId>org.apache.poi</groupId>
         <artifactId>poi</artifactId>
@@ -127,11 +119,6 @@
       <groupId>com.kasisoft</groupId>
       <artifactId>com.kasisoft.libs.plex</artifactId>
       <version>0.2</version>
-    </dependency>
-  
-    <dependency>
-      <groupId>org.projectlombok</groupId>
-      <artifactId>lombok</artifactId>
     </dependency>
   
     <dependency>
